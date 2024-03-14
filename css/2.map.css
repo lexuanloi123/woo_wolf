@@ -1,0 +1,51 @@
+.title-map{
+    width: 100%;
+}
+.ht-conten{
+    width: 100%;
+}
+
+.content-map {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.content-map-left {
+    width: 33%;
+}
+.content-map-right {
+    width: 66%;
+}
+.content-map-left-ct {
+    border: 10px solid #3bb77e;
+}
+.map-item {
+    width: 100%;
+}
+.map-item-ct {
+    padding: 10px;
+}
+.map-item-ct h3 {
+    margin: 11px 0;
+}
+.map-item-ct p {
+    margin: 5px 0;
+}
+.a-hover-red:hover{
+    color: red;
+}
+@media only screen and (max-width: 900px) {
+    .content-map-left {
+        width: 100%;
+    }
+    .content-map {
+        flex-wrap: wrap;
+    }
+    .content-map-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 450px) {
+}
